@@ -12,5 +12,5 @@
 * Remove all packages from a given compiler \
 `spack uninstall -a %<compiler>@<version>`
 
-* Create a spec file for package
+* Create a spec file for package \
 `spack spec -y <package_name>@<version> target=x86_64 | tee spec.yaml`
