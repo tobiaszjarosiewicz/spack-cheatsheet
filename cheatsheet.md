@@ -9,3 +9,5 @@
 * Remove all packages from a given architecture \
 `spack uninstall -a arch=<name>`
 
+* Remove all packages from a given compiler \
+`spack uninstall -a %<compiler>@<version>`
