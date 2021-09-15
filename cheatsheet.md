@@ -15,6 +15,9 @@
 * Create a spec file for package \
 `spack spec -y <package_name>@<version> target=x86_64 | tee spec.yaml`
 
+* Edit config (~/.spack/config.yaml): \
+`spack config edit config`
+
 ### Installing package
 * Specify architecture \
 `spack install <package_name> target=x86_64`
