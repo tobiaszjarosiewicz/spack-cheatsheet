@@ -18,6 +18,9 @@
 * Edit config (~/.spack/config.yaml): \
 `spack config edit config`
 
+* Edit Spack package install configuration (e.g. configure options): \
+`spack edit <package_name>`
+
 ### Installing package
 * Specify architecture \
 `spack install <package_name> target=x86_64`
