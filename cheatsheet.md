@@ -21,6 +21,9 @@
 * Edit Spack package install configuration (e.g. configure options): \
 `spack edit <package_name>`
 
+* (re) Generate TCL modulefiles: \
+`spack module tcl refresh`
+
 ### Installing package
 * Specify architecture \
 `spack install <package_name> target=x86_64`
